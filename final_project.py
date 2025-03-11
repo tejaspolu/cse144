@@ -31,8 +31,8 @@ EPOCHS = 20            # full 20 epochs (no early stopping)
 LR = 1e-4              # low LR for fine-tuning
 IMG_SIZE = 224
 
-TRAIN_DIR = "train/train"   # Adjust if nested differently
-TEST_DIR = "test/test"       # Adjust if nested differently
+TRAIN_DIR = "train"   # Adjust if nested differently
+TEST_DIR = "test"       # Adjust if nested differently
 
 SUBMISSION_FILE = "submission.csv"
 BEST_MODEL_PATH = "best_model.pth"
