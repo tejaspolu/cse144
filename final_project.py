@@ -34,8 +34,8 @@ IMG_SIZE = 224
 TRAIN_DIR = "train"   # Adjust if nested differently
 TEST_DIR = "test"       # Adjust if nested differently
 
-SUBMISSION_FILE = "/home/jupyter/cse144/submission.csv"
-BEST_MODEL_PATH = "/home/jupyter/cse144/best_model.pth"
+SUBMISSION_FILE = "submission.csv"
+BEST_MODEL_PATH = "best_model.pth"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # -----------------------------
