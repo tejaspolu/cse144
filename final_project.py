@@ -27,15 +27,15 @@ set_seed(42)
 # 2. Configuration
 # -----------------------------
 BATCH_SIZE = 8         # smaller batch for finer gradient updates
-EPOCHS = 20            # full 20 epochs (no early stopping)
+EPOCHS = 10            # full 20 epochs (no early stopping)
 LR = 1e-4              # low LR for fine-tuning
 IMG_SIZE = 224
 
 TRAIN_DIR = "train"   # Adjust if nested differently
 TEST_DIR = "test"       # Adjust if nested differently
 
-SUBMISSION_FILE = "submission.csv"
-BEST_MODEL_PATH = "best_model.pth"
+SUBMISSION_FILE = "/home/jupyter/cse144/submission.csv"
+BEST_MODEL_PATH = "/home/jupyter/cse144/best_model.pth"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # -----------------------------
